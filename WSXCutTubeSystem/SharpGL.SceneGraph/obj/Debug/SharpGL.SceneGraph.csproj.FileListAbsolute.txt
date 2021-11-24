@@ -1,0 +1,16 @@
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL.SceneGraph\bin\Debug\SharpGL.SceneGraph.dll
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL.SceneGraph\bin\Debug\SharpGL.SceneGraph.pdb
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL.SceneGraph\bin\Debug\SharpGL.dll
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL.SceneGraph\bin\Debug\SharpGL.pdb
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL.SceneGraph\obj\Debug\SharpGL.SceneGraph.csprojAssemblyReference.cache
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL.SceneGraph\obj\Debug\SharpGL.SceneGraph.csproj.CopyComplete
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL.SceneGraph\obj\Debug\SharpGL.SceneGraph.dll
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL.SceneGraph\obj\Debug\SharpGL.SceneGraph.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL.SceneGraph\bin\Debug\SharpGL.SceneGraph.dll
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL.SceneGraph\bin\Debug\SharpGL.SceneGraph.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL.SceneGraph\bin\Debug\SharpGL.dll
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL.SceneGraph\bin\Debug\SharpGL.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL.SceneGraph\obj\Debug\SharpGL.SceneGraph.csprojAssemblyReference.cache
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL.SceneGraph\obj\Debug\SharpGL.SceneGraph.csproj.CopyComplete
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL.SceneGraph\obj\Debug\SharpGL.SceneGraph.dll
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL.SceneGraph\obj\Debug\SharpGL.SceneGraph.pdb

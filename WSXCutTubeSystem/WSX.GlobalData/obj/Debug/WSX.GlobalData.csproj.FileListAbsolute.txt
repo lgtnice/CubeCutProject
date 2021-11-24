@@ -1,0 +1,12 @@
+D:\Code\newzzz\WSXCutTubeSystem\WSX.GlobalData\obj\Debug\WSX.GlobalData.csprojAssemblyReference.cache
+D:\Code\newzzz\WSXCutTubeSystem_Complete\WSX.GlobalData.dll
+D:\Code\newzzz\WSXCutTubeSystem_Complete\WSX.GlobalData.pdb
+D:\Code\newzzz\WSXCutTubeSystem\WSX.GlobalData\obj\Debug\WSX.GlobalData.csproj.CopyComplete
+D:\Code\newzzz\WSXCutTubeSystem\WSX.GlobalData\obj\Debug\WSX.GlobalData.dll
+D:\Code\newzzz\WSXCutTubeSystem\WSX.GlobalData\obj\Debug\WSX.GlobalData.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem_Complete\WSX.GlobalData.dll
+D:\Code\切管_老代码\WSXCutTubeSystem_Complete\WSX.GlobalData.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.GlobalData\obj\Debug\WSX.GlobalData.csprojAssemblyReference.cache
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.GlobalData\obj\Debug\WSX.GlobalData.csproj.CopyComplete
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.GlobalData\obj\Debug\WSX.GlobalData.dll
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.GlobalData\obj\Debug\WSX.GlobalData.pdb

@@ -1,0 +1,12 @@
+D:\Code\newzzz\WSXCutTubeSystem\WSX.ViewModels\obj\Debug\WSX.ViewModels.csprojAssemblyReference.cache
+D:\Code\newzzz\WSXCutTubeSystem_Complete\WSX.ViewModels.dll
+D:\Code\newzzz\WSXCutTubeSystem_Complete\WSX.ViewModels.pdb
+D:\Code\newzzz\WSXCutTubeSystem\WSX.ViewModels\obj\Debug\WSX.ViewModels.csproj.CopyComplete
+D:\Code\newzzz\WSXCutTubeSystem\WSX.ViewModels\obj\Debug\WSX.ViewModels.dll
+D:\Code\newzzz\WSXCutTubeSystem\WSX.ViewModels\obj\Debug\WSX.ViewModels.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem_Complete\WSX.ViewModels.dll
+D:\Code\切管_老代码\WSXCutTubeSystem_Complete\WSX.ViewModels.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.ViewModels\obj\Debug\WSX.ViewModels.csprojAssemblyReference.cache
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.ViewModels\obj\Debug\WSX.ViewModels.csproj.CopyComplete
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.ViewModels\obj\Debug\WSX.ViewModels.dll
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.ViewModels\obj\Debug\WSX.ViewModels.pdb

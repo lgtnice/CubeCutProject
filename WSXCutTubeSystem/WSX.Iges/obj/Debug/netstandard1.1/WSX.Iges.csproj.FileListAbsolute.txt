@@ -1,0 +1,16 @@
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Iges\bin\Debug\netstandard1.1\WSX.Iges.deps.json
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Iges\bin\Debug\netstandard1.1\WSX.Iges.dll
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Iges\bin\Debug\netstandard1.1\WSX.Iges.pdb
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Iges\obj\Debug\netstandard1.1\WSX.Iges.csprojAssemblyReference.cache
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Iges\obj\Debug\netstandard1.1\WSX.Iges.AssemblyInfoInputs.cache
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Iges\obj\Debug\netstandard1.1\WSX.Iges.AssemblyInfo.cs
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Iges\obj\Debug\netstandard1.1\WSX.Iges.dll
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Iges\obj\Debug\netstandard1.1\WSX.Iges.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Iges\bin\Debug\netstandard1.1\WSX.Iges.deps.json
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Iges\bin\Debug\netstandard1.1\WSX.Iges.dll
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Iges\bin\Debug\netstandard1.1\WSX.Iges.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Iges\obj\Debug\netstandard1.1\WSX.Iges.csprojAssemblyReference.cache
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Iges\obj\Debug\netstandard1.1\WSX.Iges.AssemblyInfoInputs.cache
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Iges\obj\Debug\netstandard1.1\WSX.Iges.AssemblyInfo.cs
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Iges\obj\Debug\netstandard1.1\WSX.Iges.dll
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Iges\obj\Debug\netstandard1.1\WSX.Iges.pdb

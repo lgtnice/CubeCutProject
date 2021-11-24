@@ -1,0 +1,10 @@
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL\bin\Debug\SharpGL.dll
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL\bin\Debug\SharpGL.pdb
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL\obj\Debug\SharpGL.csprojAssemblyReference.cache
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL\obj\Debug\SharpGL.dll
+D:\Code\newzzz\WSXCutTubeSystem\SharpGL\obj\Debug\SharpGL.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL\bin\Debug\SharpGL.dll
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL\bin\Debug\SharpGL.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL\obj\Debug\SharpGL.csprojAssemblyReference.cache
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL\obj\Debug\SharpGL.dll
+D:\Code\切管_老代码\WSXCutTubeSystem\SharpGL\obj\Debug\SharpGL.pdb

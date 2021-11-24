@@ -1,0 +1,12 @@
+D:\Code\newzzz\WSXCutTubeSystem_Complete\WSX.Logger.dll
+D:\Code\newzzz\WSXCutTubeSystem_Complete\WSX.Logger.pdb
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Logger\obj\Debug\WSX.Logger.csprojAssemblyReference.cache
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Logger\obj\Debug\WSX.Logger.csproj.CopyComplete
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Logger\obj\Debug\WSX.Logger.dll
+D:\Code\newzzz\WSXCutTubeSystem\WSX.Logger\obj\Debug\WSX.Logger.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem_Complete\WSX.Logger.dll
+D:\Code\切管_老代码\WSXCutTubeSystem_Complete\WSX.Logger.pdb
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Logger\obj\Debug\WSX.Logger.csprojAssemblyReference.cache
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Logger\obj\Debug\WSX.Logger.csproj.CopyComplete
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Logger\obj\Debug\WSX.Logger.dll
+D:\Code\切管_老代码\WSXCutTubeSystem\WSX.Logger\obj\Debug\WSX.Logger.pdb

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{836635BB-5279-4B21-83BD-820DFDC78D88}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WSX.Draw3D</RootNamespace>
+    <AssemblyName>WSX.Draw3D</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\WSXCutTubeSystem_Complete\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="SharpGL.WinForms">
+      <HintPath>..\SharpGL.WinForms\obj\Debug\SharpGL.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WSX.CommomModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WSXCutTubeSystem_Complete\WSX.CommomModel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Canvas\CommandType.cs" />
+    <Compile Include="Common\LayerColors.cs" />
+    <Compile Include="Common\LayerBase.cs" />
+    <Compile Include="DataModel.cs" />
+    <Compile Include="DrawComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DrawComponent.Designer.cs">
+      <DependentUpon>DrawComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawTools\GeoCurve3D.cs" />
+    <Compile Include="DrawTools\DrawObjectBase.cs" />
+    <Compile Include="DrawTools\Ellipse3D.cs" />
+    <Compile Include="DrawTools\HalfCircle3D.cs" />
+    <Compile Include="DrawTools\Line3D.cs" />
+    <Compile Include="Common\IDrawObject.cs" />
+    <Compile Include="Common\IModel.cs" />
+    <Compile Include="DrawTools\Polyline3D.cs" />
+    <Compile Include="DrawTools\Spline3D.cs" />
+    <Compile Include="DrawTools\SquareCircle3D.cs" />
+    <Compile Include="Layers\DrawLayer.cs" />
+    <Compile Include="Layers\MarkLayer.cs" />
+    <Compile Include="Resources\CursorCollection.cs" />
+    <Compile Include="Utils\ArrayHelper.cs" />
+    <Compile Include="Utils\ArrowUtil.cs" />
+    <Compile Include="MathTools\EllipseHelper.cs" />
+    <Compile Include="MathTools\MatrixHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Canvas\UCCanvas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Canvas\UCCanvas.Designer.cs">
+      <DependentUpon>UCCanvas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\CoordinateUtil.cs" />
+    <Compile Include="Utils\CutOffUtil.cs" />
+    <Compile Include="Utils\GDIWrapper\DrawingMode.cs" />
+    <Compile Include="Utils\GDIWrapper\GDI.cs" />
+    <Compile Include="Utils\GDIWrapper\PenStyles.cs" />
+    <Compile Include="Utils\HitUtil.cs" />
+    <Compile Include="Utils\MicroConnectUtil.cs" />
+    <Compile Include="Utils\MoveUtil.cs" />
+    <Compile Include="Utils\SelectionRectangle.cs" />
+    <Compile Include="Utils\GDIWrapper\XorGDI.cs" />
+    <Compile Include="Utils\SortUtil.cs" />
+    <Compile Include="Utils\StandardTubeConverter.cs" />
+    <Compile Include="Utils\Undo\EditCommandArray.cs" />
+    <Compile Include="Utils\Undo\EditCommandBase.cs" />
+    <Compile Include="Utils\Undo\EditCommandUpdate.cs" />
+    <Compile Include="Utils\Undo\UndoRedoBuffer.cs" />
+    <Compile Include="Utils\VacantPath.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DrawComponent.resx">
+      <DependentUpon>DrawComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Canvas\UCCanvas.resx">
+      <DependentUpon>UCCanvas.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharpGL\SharpGL.csproj">
+      <Project>{5ef45533-e2c7-46f2-b4a3-b8f36cd406e0}</Project>
+      <Name>SharpGL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSX.CommomModel\WSX.CommomModel.csproj">
+      <Project>{6aa1e300-8783-4a86-a242-cdef7a8e4f1b}</Project>
+      <Name>WSX.CommomModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSX.GlobalData\WSX.GlobalData.csproj">
+      <Project>{3655A3C2-AC5F-4CBF-938C-2464C1CAC559}</Project>
+      <Name>WSX.GlobalData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSX.Iges\WSX.Iges.csproj">
+      <Project>{299F17DB-031A-439D-9561-F8B299F8E31B}</Project>
+      <Name>WSX.Iges</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pan.png" />
+    <Compile Include="Canvas\UCCanvas.CoordinateTransform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\northeast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\northwest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\southeast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\southwest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\coolpoint.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\EditNode.cur" />
+    <EmbeddedResource Include="Resources\hmove.cur" />
+    <EmbeddedResource Include="Resources\micorconn.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\rotate.cur" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

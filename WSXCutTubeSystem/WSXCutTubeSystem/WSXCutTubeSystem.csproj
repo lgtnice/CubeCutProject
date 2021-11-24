@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8BD193CE-315B-437E-8CC8-37A361F850DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WSXCutTubeSystem</RootNamespace>
+    <AssemblyName>WSXCut</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\WSXCutTubeSystem_Complete\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\WSXCutTubeSystem_Complete\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v16.2" />
+    <Reference Include="DevExpress.Data.v16.2" />
+    <Reference Include="DevExpress.Mvvm.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.2" />
+    <Reference Include="DevExpress.XtraBars.v16.2" />
+    <Reference Include="DevExpress.Sparkline.v16.2.Core" />
+    <Reference Include="DevExpress.XtraEditors.v16.2" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.2.Extensions, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v16.2.Extensions\v4.0_16.2.5.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v16.2.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExternPackage\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExternPackage\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.WinForms, Version=2.4.1.1, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WSXCutTubeSystem_Complete\SharpGL.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WSX.CommomModel">
+      <HintPath>..\..\WSXCutTubeSystem_Complete\WSX.CommomModel.dll</HintPath>
+    </Reference>
+    <Reference Include="WSX.Draw3D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WSXCutTubeSystem_Complete\WSX.Draw3D.dll</HintPath>
+    </Reference>
+    <Reference Include="WSX.Iges, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\WSXCutTubeSystem_Complete\WSX.Iges.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Views\MainForm\MainView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainForm\MainView.Designer.cs">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\BootstrapManager.cs" />
+    <Compile Include="Manager\FigureManager.cs" />
+    <Compile Include="Manager\FileManager.cs" />
+    <Compile Include="Manager\LoggerManager.cs" />
+    <Compile Include="Models\InitStep.cs" />
+    <Compile Include="Models\VersionInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmArray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmArray.Designer.cs">
+      <DependentUpon>FrmArray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmDockPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmDockPosition.Designer.cs">
+      <DependentUpon>FrmDockPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmGapCompensation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmGapCompensation.Designer.cs">
+      <DependentUpon>FrmGapCompensation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmGapSizeSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmGapSizeSet.Designer.cs">
+      <DependentUpon>FrmGapSizeSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmLayerConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmLayerConfig.Designer.cs">
+      <DependentUpon>FrmLayerConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmLeadWireParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmLeadWireParams.Designer.cs">
+      <DependentUpon>FrmLeadWireParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmMergeConnectLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmMergeConnectLine.Designer.cs">
+      <DependentUpon>FrmMergeConnectLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmMicroConnectParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmMicroConnectParams.Designer.cs">
+      <DependentUpon>FrmMicroConnectParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmReplaceToPoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmReplaceToPoint.Designer.cs">
+      <DependentUpon>FrmReplaceToPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmStartup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmStartup.Designer.cs">
+      <DependentUpon>FrmStartup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmTubeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmTubeInfo.Designer.cs">
+      <DependentUpon>FrmTubeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FrmUserConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FrmUserConfig.Designer.cs">
+      <DependentUpon>FrmUserConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FrmStandardTube.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FrmStandardTube.Designer.cs">
+      <DependentUpon>FrmStandardTube.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Menu\ComboHeadBarSubItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\UCLayerParaBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Operation\UCLayerParaBar.designer.cs">
+      <DependentUpon>UCLayerParaBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCCircleTube.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCCircleTube.Designer.cs">
+      <DependentUpon>UCCircleTube.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCCircleTube2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCCircleTube2.Designer.cs">
+      <DependentUpon>UCCircleTube2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCFilePreview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCFilePreview.Designer.cs">
+      <DependentUpon>UCFilePreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCLogDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCLogDetail.Designer.cs">
+      <DependentUpon>UCLogDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCRectangleTube.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCRectangleTube.Designer.cs">
+      <DependentUpon>UCRectangleTube.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCRectangleTube2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCRectangleTube2.Designer.cs">
+      <DependentUpon>UCRectangleTube2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCSportTube.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCSportTube.Designer.cs">
+      <DependentUpon>UCSportTube.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCSportTube2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCSportTube2.Designer.cs">
+      <DependentUpon>UCSportTube2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCSquareTube.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCSquareTube.Designer.cs">
+      <DependentUpon>UCSquareTube.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCSquareTube2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCSquareTube2.Designer.cs">
+      <DependentUpon>UCSquareTube2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCStatusBarInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCStatusBarInfo.Designer.cs">
+      <DependentUpon>UCStatusBarInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UCControl\UCTubeTiltAngleShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UCControl\UCTubeTiltAngleShow.Designer.cs">
+      <DependentUpon>UCTubeTiltAngleShow.cs</DependentUpon>
+    </Compile>
+    <None Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Views\MainForm\MainView.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmArray.resx">
+      <DependentUpon>FrmArray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmDockPosition.resx">
+      <DependentUpon>FrmDockPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmGapCompensation.resx">
+      <DependentUpon>FrmGapCompensation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmGapSizeSet.resx">
+      <DependentUpon>FrmGapSizeSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmLayerConfig.resx">
+      <DependentUpon>FrmLayerConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmLeadWireParams.resx">
+      <DependentUpon>FrmLeadWireParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmMergeConnectLine.resx">
+      <DependentUpon>FrmMergeConnectLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmMicroConnectParams.resx">
+      <DependentUpon>FrmMicroConnectParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmReplaceToPoint.resx">
+      <DependentUpon>FrmReplaceToPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmStartup.resx">
+      <DependentUpon>FrmStartup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmTubeInfo.resx">
+      <DependentUpon>FrmTubeInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FrmUserConfig.resx">
+      <DependentUpon>FrmUserConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FrmStandardTube.resx">
+      <DependentUpon>FrmStandardTube.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Operation\UCLayerParaBar.resx">
+      <DependentUpon>UCLayerParaBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCCircleTube.resx">
+      <DependentUpon>UCCircleTube.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCCircleTube2.resx">
+      <DependentUpon>UCCircleTube2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCFilePreview.resx">
+      <DependentUpon>UCFilePreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCLogDetail.resx">
+      <DependentUpon>UCLogDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCRectangleTube.resx">
+      <DependentUpon>UCRectangleTube.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCRectangleTube2.resx">
+      <DependentUpon>UCRectangleTube2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCSportTube.resx">
+      <DependentUpon>UCSportTube.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCSportTube2.resx">
+      <DependentUpon>UCSportTube2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCSquareTube.resx">
+      <DependentUpon>UCSquareTube.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCSquareTube2.resx">
+      <DependentUpon>UCSquareTube2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCStatusBarInfo.resx">
+      <DependentUpon>UCStatusBarInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UCControl\UCTubeTiltAngleShow.resx">
+      <DependentUpon>UCTubeTiltAngleShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharpGL\SharpGL.csproj">
+      <Project>{5EF45533-E2C7-46F2-B4A3-B8F36CD406E0}</Project>
+      <Name>SharpGL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSX.ControlLibrary\WSX.ControlLibrary.csproj">
+      <Project>{19C61A00-314C-4C19-BB6E-B5B9D9569F74}</Project>
+      <Name>WSX.ControlLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSX.DataCollection\WSX.DataCollection.csproj">
+      <Project>{9565C886-1683-420E-B793-EE5A01EE7691}</Project>
+      <Name>WSX.DataCollection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSX.GlobalData\WSX.GlobalData.csproj">
+      <Project>{3655A3C2-AC5F-4CBF-938C-2464C1CAC559}</Project>
+      <Name>WSX.GlobalData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSX.Logger\WSX.Logger.csproj">
+      <Project>{7EE3268A-3F81-43DD-8026-6106A1008F66}</Project>
+      <Name>WSX.Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSX.ViewModels\WSX.ViewModels.csproj">
+      <Project>{93e27156-a870-4860-8374-11e92dd4d6fe}</Project>
+      <Name>WSX.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\file.ico" />
+    <Content Include="Assets\file2.ico" />
+    <Content Include="Assets\file3.ico" />
+    <None Include="Resources\line.png" />
+    <None Include="Resources\apply.png" />
+    <Content Include="Resources\layer0.png" />
+    <Content Include="Resources\layer1.png" />
+    <Content Include="Resources\layer10.png" />
+    <Content Include="Resources\layer11.png" />
+    <Content Include="Resources\layer12.png" />
+    <Content Include="Resources\layer13.png" />
+    <Content Include="Resources\layer14.png" />
+    <Content Include="Resources\layer15.png" />
+    <Content Include="Resources\layer2.png" />
+    <Content Include="Resources\layer3.png" />
+    <Content Include="Resources\layer4.png" />
+    <Content Include="Resources\layer5.png" />
+    <Content Include="Resources\layer6.png" />
+    <Content Include="Resources\layer7.png" />
+    <Content Include="Resources\layer8.png" />
+    <Content Include="Resources\layer9.png" />
+    <Content Include="Resources\layerSet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circleSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sportSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squareSelected.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
